@@ -58,3 +58,20 @@
   background-color: rgb(216, 144, 9);
   border-width: 0;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem 20rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+}
+
+#hero main h1 {
+  padding-top: 4rem;
+  padding-left: 6rem;
+}
