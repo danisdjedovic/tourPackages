@@ -6,29 +6,38 @@
 }
 
 #hero header {
-  height: 8vh;
-
+  height: 14vh;
   padding: 0rem 4rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-bottom: 2rem solid #ddd;
   border-width: 1px;
+  gap: 50rem;
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 
-#hero header h1 {
-  font-family: "Norican", cursive;
-  font-size: 2.5rem;
+#hero main {
+  padding-top: 4rem;
+}
+
+#hero header img {
+  height: 8rem;
+  width: 8rem;
+  object-fit: scale-down;
 }
 
 #hero header nav ul {
-  display: flex;
+  display: inline-flex;
+  height: 14vh;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   position: absolute;
-
   left: 50%;
   transform: translate(-50%);
 }
@@ -36,7 +45,7 @@
 #hero header div ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
 }
@@ -57,6 +66,7 @@
   color: white;
   background-color: rgb(216, 144, 9);
   border-width: 0;
+  white-space: nowrap;
 }
 
 .grid-container {
