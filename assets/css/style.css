@@ -6,7 +6,7 @@
 }
 
 #hero header {
-  height: 20vh;
+  height: 18vh;
   padding: 0rem 4rem;
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@
 #hero header nav ul {
   font-size: 1.3rem;
   display: inline-flex;
-  height: 20vh;
+  height: 18vh;
   list-style: none;
   justify-content: center;
   align-items: center;
@@ -56,6 +56,7 @@
 #language {
   color: #929090;
   border: 0;
+  font-size: 1.4rem;
 }
 
 #hero header div a {
@@ -88,6 +89,8 @@
   display: block;
   align-items: center;
   justify-content: center;
+  font-size: 19px;
+  color: #6d6c6c;
 }
 
 .grid-item1 {
@@ -110,8 +113,31 @@
   border-radius: 2rem;
 }
 
-#hero main h1 {
-  display: flex;
+.grid-item h3 {
+  margin-top: 10px;
+  color: rgb(29, 28, 28);
+}
+
+.grid-item div {
+  display: inline-flex;
   align-items: center;
-  height: 8vh;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.grid-item div h4 {
+  color: rgb(216, 144, 9);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.grid-item p {
+  margin-top: 10px;
+}
+
+.grid-item a {
+  color: rgb(216, 144, 9);
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
 }
