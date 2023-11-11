@@ -234,10 +234,18 @@
   right: 10%;
 }
 
+#side h1 {
+  position: absolute;
+  left: 27.5rem;
+  top: 13rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .grid3-container {
   position: absolute;
   top: 18rem;
-  left: 8%;
+  left: 12rem;
   height: 25rem;
   width: 45rem;
   column-gap: 12rem;
@@ -274,4 +282,17 @@
   height: 3rem;
   padding: 0.5rem;
   color: rgb(168, 168, 168);
+}
+
+.bnButton button {
+  justify-content: center;
+  align-items: center;
+  margin-left: 17rem;
+  padding: 0.4rem 2.6rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  color: white;
+  background-color: rgb(216, 144, 9);
+  border-width: 0;
+  white-space: nowrap;
 }
